@@ -30,6 +30,7 @@ Model files required:
 ---
 
 ## 📁 Project Structure
+```
 /project-root
 │
 ├── app.py               # Main Flask application
@@ -45,20 +46,39 @@ Model files required:
 │   └── index.html
 ├── users.json           # User data storage
 └── README.md            # Project documentation
+```
 
 
-1.Set Up Virtual Environment
-python -m venv venv
-venv\Scripts\activate   # On Windows
+## Setup Instructions
 
-2.Install Requirements
+### 1. Set Up Virtual Environment
+
+```bash
+python -m venv venv    # On Windows
+venv\Scripts\activate  #activate venv
+```
+
+### 2. Install Requirements
+
+```bash
 pip install -r requirements.txt
+```
 
-3.Download and Place Model Files
-Place all BART model files inside the model/ folder.
+### 3. Download and Place Model Files
 
-4.Run the App
+Place all BART model files inside the `model/` folder:
+- `config.json`
+- `merges.txt`
+- `pytorch_model.bin`
+- `tokenizer.json`
+- `vocab.json`
+
+### 4. Run the App
+
+```bash
 python app.py
+```
+
 
 Open your browser and visit: http://127.0.0.1:5000
 
