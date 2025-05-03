@@ -1,0 +1,244 @@
+2025-04-19 22:37:40,378 - INFO -  * Restarting with stat
+2025-04-19 22:38:00,116 - WARNING -  * Debugger is active!
+2025-04-19 22:38:00,161 - INFO -  * Debugger PIN: 707-032-095
+2025-04-19 22:38:01,103 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-19 22:38:35,698 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 22:38:35,881 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:35] "GET /login HTTP/1.1" 200 -
+2025-04-19 22:38:39,174 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 22:38:39,342 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:39] "GET /login HTTP/1.1" 200 -
+2025-04-19 22:38:40,994 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-19 22:38:41,198 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:41] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 22:38:41,456 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:41] "GET /login HTTP/1.1" 200 -
+2025-04-19 22:38:44,194 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 22:38:44,713 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:44] "GET /login HTTP/1.1" 200 -
+2025-04-19 22:38:52,661 - INFO - Login attempt for: admin
+2025-04-19 22:38:53,714 - INFO - Login successful: admin
+2025-04-19 22:38:53,721 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-19 22:38:53,745 - INFO - 127.0.0.1 - - [19/Apr/2025 22:38:53] "GET /index HTTP/1.1" 200 -
+2025-04-19 22:39:23,723 - INFO - User 'admin' submitted URL: https://malicious.com/malware
+2025-04-19 22:39:23,724 - WARNING - Invalid or unsafe URL by user 'admin': https://malicious.com/malware
+2025-04-19 22:39:23,726 - INFO - 127.0.0.1 - - [19/Apr/2025 22:39:23] "POST /index HTTP/1.1" 200 -
+2025-04-19 23:31:58,494 - INFO -  * Restarting with stat
+2025-04-19 23:32:17,075 - WARNING -  * Debugger is active!
+2025-04-19 23:32:17,113 - INFO -  * Debugger PIN: 707-032-095
+2025-04-19 23:32:18,284 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-19 23:33:54,596 - INFO - 127.0.0.1 - - [19/Apr/2025 23:33:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 23:33:54,983 - INFO - 127.0.0.1 - - [19/Apr/2025 23:33:54] "GET /index HTTP/1.1" 200 -
+2025-04-19 23:34:00,260 - INFO - User logged out: admin
+2025-04-19 23:34:00,263 - INFO - 127.0.0.1 - - [19/Apr/2025 23:34:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-19 23:34:00,313 - INFO - 127.0.0.1 - - [19/Apr/2025 23:34:00] "GET /login HTTP/1.1" 200 -
+2025-04-19 23:34:06,103 - INFO - 127.0.0.1 - - [19/Apr/2025 23:34:06] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:34:11,715 - INFO - 127.0.0.1 - - [19/Apr/2025 23:34:11] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:35:46,724 - WARNING - Login failed – user not found: admin2
+2025-04-19 23:35:46,727 - INFO - 127.0.0.1 - - [19/Apr/2025 23:35:46] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:35:51,370 - WARNING - Login failed – user not found: admin2
+2025-04-19 23:35:51,375 - INFO - 127.0.0.1 - - [19/Apr/2025 23:35:51] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:35:55,848 - WARNING - Login failed – user not found: admin1
+2025-04-19 23:35:55,850 - INFO - 127.0.0.1 - - [19/Apr/2025 23:35:55] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:36:00,265 - WARNING - Login failed – user not found: admin2
+2025-04-19 23:36:00,276 - INFO - 127.0.0.1 - - [19/Apr/2025 23:36:00] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:36:04,248 - WARNING - Login failed – user not found: admin3
+2025-04-19 23:36:04,256 - INFO - 127.0.0.1 - - [19/Apr/2025 23:36:04] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:36:07,732 - WARNING - Login failed – user not found: admin1
+2025-04-19 23:36:07,744 - INFO - 127.0.0.1 - - [19/Apr/2025 23:36:07] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:36:11,529 - WARNING - Login failed – user not found: admin2
+2025-04-19 23:36:11,534 - INFO - 127.0.0.1 - - [19/Apr/2025 23:36:11] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:36:16,257 - INFO - ratelimit 10 per 10 minute (127.0.0.1) exceeded at endpoint: login_attempt
+2025-04-19 23:36:16,259 - INFO - 127.0.0.1 - - [19/Apr/2025 23:36:16] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+2025-04-19 23:36:58,778 - INFO - 127.0.0.1 - - [19/Apr/2025 23:36:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 23:36:58,896 - INFO - ratelimit 10 per 10 minute (127.0.0.1) exceeded at endpoint: login_attempt
+2025-04-19 23:36:58,898 - INFO - 127.0.0.1 - - [19/Apr/2025 23:36:58] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+2025-04-19 23:46:44,906 - INFO -  * Restarting with stat
+2025-04-19 23:46:58,554 - WARNING -  * Debugger is active!
+2025-04-19 23:46:58,571 - INFO -  * Debugger PIN: 707-032-095
+2025-04-19 23:46:59,183 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-19 23:50:52,351 - INFO - 127.0.0.1 - - [19/Apr/2025 23:50:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-19 23:50:52,429 - INFO - 127.0.0.1 - - [19/Apr/2025 23:50:52] "GET /login HTTP/1.1" 200 -
+2025-04-19 23:51:03,598 - WARNING - Login failed – user not found: admin2
+2025-04-19 23:51:03,601 - INFO - 127.0.0.1 - - [19/Apr/2025 23:51:03] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:51:30,175 - INFO - Login successful: admin
+2025-04-19 23:51:30,181 - INFO - 127.0.0.1 - - [19/Apr/2025 23:51:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-19 23:51:30,214 - INFO - 127.0.0.1 - - [19/Apr/2025 23:51:30] "GET /index HTTP/1.1" 200 -
+2025-04-19 23:52:25,413 - INFO - 127.0.0.1 - - [19/Apr/2025 23:52:25] "GET /login HTTP/1.1" 200 -
+2025-04-19 23:52:33,365 - WARNING - Login failed – user not found: admin3
+2025-04-19 23:52:33,372 - INFO - 127.0.0.1 - - [19/Apr/2025 23:52:33] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:52:38,259 - WARNING - Login failed – user not found: admin2
+2025-04-19 23:52:38,263 - INFO - 127.0.0.1 - - [19/Apr/2025 23:52:38] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:52:43,310 - WARNING - Login failed – user not found: admin1
+2025-04-19 23:52:43,313 - INFO - 127.0.0.1 - - [19/Apr/2025 23:52:43] "POST /login HTTP/1.1" 200 -
+2025-04-19 23:53:01,144 - INFO - Login successful: admin
+2025-04-19 23:53:01,146 - INFO - 127.0.0.1 - - [19/Apr/2025 23:53:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-19 23:53:01,159 - INFO - 127.0.0.1 - - [19/Apr/2025 23:53:01] "GET /index HTTP/1.1" 200 -
+2025-04-26 12:57:57,280 - INFO -  * Restarting with stat
+2025-04-26 12:58:10,508 - WARNING -  * Debugger is active!
+2025-04-26 12:58:10,621 - INFO -  * Debugger PIN: 707-032-095
+2025-04-26 12:58:11,169 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-26 13:01:32,326 - INFO - 127.0.0.1 - - [26/Apr/2025 13:01:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-26 13:01:32,472 - INFO - 127.0.0.1 - - [26/Apr/2025 13:01:32] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:01:35,903 - INFO - 127.0.0.1 - - [26/Apr/2025 13:01:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-26 13:01:38,327 - INFO - 127.0.0.1 - - [26/Apr/2025 13:01:38] "GET /signup HTTP/1.1" 200 -
+2025-04-26 13:01:43,956 - INFO - 127.0.0.1 - - [26/Apr/2025 13:01:43] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:01:50,651 - WARNING - Wrong password for user: admin
+2025-04-26 13:01:50,653 - INFO - 127.0.0.1 - - [26/Apr/2025 13:01:50] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:01:56,275 - WARNING - Wrong password for user: admin
+2025-04-26 13:01:56,277 - INFO - 127.0.0.1 - - [26/Apr/2025 13:01:56] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:02:01,410 - WARNING - Wrong password for user: admin
+2025-04-26 13:02:01,412 - INFO - 127.0.0.1 - - [26/Apr/2025 13:02:01] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:02:10,236 - INFO - Login successful: admin
+2025-04-26 13:02:10,238 - INFO - 127.0.0.1 - - [26/Apr/2025 13:02:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-26 13:02:10,322 - INFO - 127.0.0.1 - - [26/Apr/2025 13:02:10] "GET /index HTTP/1.1" 200 -
+2025-04-26 13:07:14,079 - INFO -  * Detected change in 'C:\\Users\\abdul sattar\\OneDrive\\Desktop\\BART-Text-Summarization-master12\\BART-Text-Summarization-master\\output\\app.py', reloading
+2025-04-26 13:07:15,367 - INFO -  * Restarting with stat
+2025-04-26 13:07:34,707 - WARNING -  * Debugger is active!
+2025-04-26 13:07:34,736 - INFO -  * Debugger PIN: 707-032-095
+2025-04-26 13:07:35,363 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-26 13:07:58,338 - INFO - 127.0.0.1 - - [26/Apr/2025 13:07:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-26 13:07:58,381 - INFO - 127.0.0.1 - - [26/Apr/2025 13:07:58] "GET /index HTTP/1.1" 200 -
+2025-04-26 13:08:04,999 - INFO - User logged out: admin
+2025-04-26 13:08:05,001 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-26 13:08:05,030 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:05] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:08:14,541 - WARNING - Wrong password for user: admin
+2025-04-26 13:08:14,543 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:14] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:08:18,999 - WARNING - Wrong password for user: admin
+2025-04-26 13:08:19,001 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:19] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:08:23,516 - WARNING - Wrong password for user: admin
+2025-04-26 13:08:23,518 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:23] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:08:29,442 - WARNING - Wrong password for user: admin
+2025-04-26 13:08:29,446 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:29] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:08:41,320 - WARNING - Wrong password for user: admin
+2025-04-26 13:08:41,323 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:41] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:08:54,593 - WARNING - Login failed – user not found: admin1
+2025-04-26 13:08:54,600 - INFO - 127.0.0.1 - - [26/Apr/2025 13:08:54] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:09:04,109 - WARNING - Login failed – user not found: admin4
+2025-04-26 13:09:04,112 - INFO - 127.0.0.1 - - [26/Apr/2025 13:09:04] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:09:14,188 - WARNING - Wrong password for user: admin
+2025-04-26 13:09:14,190 - INFO - 127.0.0.1 - - [26/Apr/2025 13:09:14] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:09:20,736 - WARNING - Wrong password for user: admin
+2025-04-26 13:09:20,738 - INFO - 127.0.0.1 - - [26/Apr/2025 13:09:20] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:09:28,089 - INFO - ratelimit 10 per 10 minute (127.0.0.1) exceeded at endpoint: login_attempt
+2025-04-26 13:09:28,091 - INFO - 127.0.0.1 - - [26/Apr/2025 13:09:28] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+2025-04-26 13:26:06,091 - INFO -  * Restarting with stat
+2025-04-26 13:26:30,719 - WARNING -  * Debugger is active!
+2025-04-26 13:26:30,747 - INFO -  * Debugger PIN: 707-032-095
+2025-04-26 13:26:31,666 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-26 13:27:22,129 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-26 13:27:22,277 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:22] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:27:27,926 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-26 13:27:30,860 - WARNING - Login failed – user not found: admin
+2025-04-26 13:27:30,893 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:30] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:27:36,907 - WARNING - Login failed – user not found: admin
+2025-04-26 13:27:36,911 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:36] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:27:41,423 - WARNING - Login failed – user not found: admin
+2025-04-26 13:27:41,428 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:41] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:27:45,688 - WARNING - Login failed – user not found: admin
+2025-04-26 13:27:45,694 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:45] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:27:49,646 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:49] "GET /signup HTTP/1.1" 200 -
+2025-04-26 13:27:58,205 - INFO - New user created: admin
+2025-04-26 13:27:58,209 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:58] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-26 13:27:58,240 - INFO - 127.0.0.1 - - [26/Apr/2025 13:27:58] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:28:16,029 - INFO - Login successful: admin
+2025-04-26 13:28:16,052 - INFO - 127.0.0.1 - - [26/Apr/2025 13:28:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-26 13:28:16,155 - INFO - 127.0.0.1 - - [26/Apr/2025 13:28:16] "GET /index HTTP/1.1" 200 -
+2025-04-26 13:28:31,738 - INFO - User 'admin' submitted URL: https://malicious.com/malware
+2025-04-26 13:28:31,757 - WARNING - Invalid or unsafe URL by user 'admin': https://malicious.com/malware
+2025-04-26 13:28:31,758 - INFO - 127.0.0.1 - - [26/Apr/2025 13:28:31] "POST /index HTTP/1.1" 200 -
+2025-04-26 13:28:58,743 - INFO - User 'admin' submitted URL: https://www.bbc.com/news/articles/czjnw1w3rz1o
+2025-04-26 13:34:47,954 - INFO - Summary generated for user 'admin' – Title: Reading surgeon suspended from duties after three deaths
+2025-04-26 13:34:48,301 - INFO - 127.0.0.1 - - [26/Apr/2025 13:34:48] "POST /index HTTP/1.1" 200 -
+2025-04-26 13:35:31,632 - INFO - User logged out: admin
+2025-04-26 13:35:31,635 - INFO - 127.0.0.1 - - [26/Apr/2025 13:35:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-26 13:35:31,686 - INFO - 127.0.0.1 - - [26/Apr/2025 13:35:31] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:35:39,083 - WARNING - Wrong password for user: admin
+2025-04-26 13:35:39,098 - INFO - 127.0.0.1 - - [26/Apr/2025 13:35:39] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:35:44,049 - WARNING - Wrong password for user: admin
+2025-04-26 13:35:44,053 - INFO - 127.0.0.1 - - [26/Apr/2025 13:35:44] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:35:48,236 - INFO - ratelimit 10 per 10 minute (127.0.0.1) exceeded at endpoint: login_attempt
+2025-04-26 13:35:48,267 - INFO - 127.0.0.1 - - [26/Apr/2025 13:35:48] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+2025-04-26 13:41:15,848 - INFO - 127.0.0.1 - - [26/Apr/2025 13:41:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-26 13:41:15,971 - INFO - 127.0.0.1 - - [26/Apr/2025 13:41:15] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:41:42,197 - WARNING - Wrong password for user: admin
+2025-04-26 13:41:42,203 - INFO - 127.0.0.1 - - [26/Apr/2025 13:41:42] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:41:42,763 - WARNING - Wrong password for user: admin
+2025-04-26 13:41:42,766 - INFO - 127.0.0.1 - - [26/Apr/2025 13:41:42] "POST /login HTTP/1.1" 200 -
+2025-04-26 13:41:47,854 - INFO - 127.0.0.1 - - [26/Apr/2025 13:41:47] "GET /signup HTTP/1.1" 200 -
+2025-04-26 13:41:56,734 - WARNING - Signup failed – User already exists: admin
+2025-04-26 13:41:56,736 - INFO - 127.0.0.1 - - [26/Apr/2025 13:41:56] "POST /signup HTTP/1.1" 200 -
+2025-04-26 13:42:01,924 - INFO - 127.0.0.1 - - [26/Apr/2025 13:42:01] "GET /signup HTTP/1.1" 200 -
+2025-04-26 13:42:14,232 - INFO - New user created: user
+2025-04-26 13:42:14,234 - INFO - 127.0.0.1 - - [26/Apr/2025 13:42:14] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-04-26 13:42:14,257 - INFO - 127.0.0.1 - - [26/Apr/2025 13:42:14] "GET /login HTTP/1.1" 200 -
+2025-04-26 13:42:40,703 - INFO - Login successful: admin
+2025-04-26 13:42:40,707 - INFO - 127.0.0.1 - - [26/Apr/2025 13:42:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-26 13:42:40,762 - INFO - 127.0.0.1 - - [26/Apr/2025 13:42:40] "GET /index HTTP/1.1" 200 -
+2025-04-26 13:43:26,318 - INFO - User 'admin' submitted URL: https://www.bbc.com/news/articles/czjnw1w3rz1o
+2025-04-26 13:46:02,178 - INFO - Summary generated for user 'admin' – Title: Reading surgeon suspended from duties after three deaths
+2025-04-26 13:46:02,254 - INFO - 127.0.0.1 - - [26/Apr/2025 13:46:02] "POST /index HTTP/1.1" 200 -
+2025-04-29 17:40:15,225 - INFO -  * Restarting with stat
+2025-04-29 17:40:22,607 - WARNING -  * Debugger is active!
+2025-04-29 17:40:22,615 - INFO -  * Debugger PIN: 142-424-933
+2025-04-29 17:40:22,835 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-29 17:43:17,994 - INFO - 127.0.0.1 - - [29/Apr/2025 17:43:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-29 17:43:18,150 - INFO - 127.0.0.1 - - [29/Apr/2025 17:43:18] "GET /login HTTP/1.1" 200 -
+2025-04-29 17:43:20,831 - INFO - 127.0.0.1 - - [29/Apr/2025 17:43:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-29 17:43:33,441 - WARNING - Wrong password for user: admin
+2025-04-29 17:43:33,443 - INFO - 127.0.0.1 - - [29/Apr/2025 17:43:33] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:49:08,642 - INFO - Login successful: admin
+2025-04-29 17:49:08,646 - INFO - 127.0.0.1 - - [29/Apr/2025 17:49:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-29 17:49:08,744 - INFO - 127.0.0.1 - - [29/Apr/2025 17:49:08] "GET /index HTTP/1.1" 200 -
+2025-04-29 17:49:15,154 - INFO - User 'admin' submitted URL: https://malicious.com/malware
+2025-04-29 17:49:15,155 - WARNING - Invalid or unsafe URL by user 'admin': https://malicious.com/malware
+2025-04-29 17:49:15,159 - INFO - 127.0.0.1 - - [29/Apr/2025 17:49:15] "POST /index HTTP/1.1" 200 -
+2025-04-29 17:51:10,297 - INFO - 127.0.0.1 - - [29/Apr/2025 17:51:10] "GET /index HTTP/1.1" 200 -
+2025-04-29 17:51:14,212 - INFO - 127.0.0.1 - - [29/Apr/2025 17:51:14] "GET /login HTTP/1.1" 200 -
+2025-04-29 17:51:19,618 - WARNING - Login failed – user not found: admin3
+2025-04-29 17:51:19,623 - INFO - 127.0.0.1 - - [29/Apr/2025 17:51:19] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:51:23,292 - WARNING - Login failed – user not found: admin2
+2025-04-29 17:51:23,294 - INFO - 127.0.0.1 - - [29/Apr/2025 17:51:23] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:51:27,757 - WARNING - Wrong password for user: admin
+2025-04-29 17:51:27,758 - INFO - 127.0.0.1 - - [29/Apr/2025 17:51:27] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:51:32,609 - WARNING - Wrong password for user: admin
+2025-04-29 17:51:32,611 - INFO - 127.0.0.1 - - [29/Apr/2025 17:51:32] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:53:44,143 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:53:44,144 - INFO - 127.0.0.1 - - [29/Apr/2025 17:53:44] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:53:50,122 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:53:50,124 - INFO - 127.0.0.1 - - [29/Apr/2025 17:53:50] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:53:55,983 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:53:55,984 - INFO - 127.0.0.1 - - [29/Apr/2025 17:53:55] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:53:59,717 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:53:59,721 - INFO - 127.0.0.1 - - [29/Apr/2025 17:53:59] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:54:07,901 - WARNING - Wrong password for user: admin
+2025-04-29 17:54:07,902 - INFO - 127.0.0.1 - - [29/Apr/2025 17:54:07] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:54:11,674 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:54:11,676 - INFO - 127.0.0.1 - - [29/Apr/2025 17:54:11] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:54:15,758 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:54:15,760 - INFO - 127.0.0.1 - - [29/Apr/2025 17:54:15] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:54:19,605 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:54:19,606 - INFO - 127.0.0.1 - - [29/Apr/2025 17:54:19] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:54:24,310 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:54:24,313 - INFO - 127.0.0.1 - - [29/Apr/2025 17:54:24] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:54:30,825 - WARNING - CAPTCHA failed for: admin
+2025-04-29 17:54:30,828 - INFO - 127.0.0.1 - - [29/Apr/2025 17:54:30] "POST /login HTTP/1.1" 200 -
+2025-04-29 17:54:33,806 - INFO - ratelimit 10 per 10 minute (127.0.0.1) exceeded at endpoint: login_attempt
+2025-04-29 17:54:33,807 - INFO - 127.0.0.1 - - [29/Apr/2025 17:54:33] "[31m[1mPOST /login HTTP/1.1[0m" 429 -
+2025-04-30 03:05:26,254 - INFO -  * Restarting with stat
+2025-04-30 03:05:38,718 - WARNING -  * Debugger is active!
+2025-04-30 03:05:38,798 - INFO -  * Debugger PIN: 142-424-933
+2025-04-30 03:05:39,321 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-30 03:07:11,757 - INFO - 127.0.0.1 - - [30/Apr/2025 03:07:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-30 03:07:11,851 - INFO - 127.0.0.1 - - [30/Apr/2025 03:07:11] "GET /login HTTP/1.1" 200 -
+2025-04-30 03:07:14,926 - INFO - 127.0.0.1 - - [30/Apr/2025 03:07:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 03:07:16,832 - INFO - Login successful: admin
+2025-04-30 03:07:16,836 - INFO - 127.0.0.1 - - [30/Apr/2025 03:07:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-30 03:07:16,859 - INFO - 127.0.0.1 - - [30/Apr/2025 03:07:16] "GET /index HTTP/1.1" 200 -
+2025-04-30 03:07:31,798 - INFO - User 'admin' submitted URL: https://www.bbc.com/news/world-us-canada-68789144
+2025-04-30 03:07:34,440 - ERROR - Error summarizing article from URL 'https://www.bbc.com/news/world-us-canada-68789144': Article `download()` failed with 404 Client Error: Not Found for url: https://www.bbc.com/news/world-us-canada-68789144 on URL https://www.bbc.com/news/world-us-canada-68789144
+2025-04-30 03:07:34,442 - INFO - 127.0.0.1 - - [30/Apr/2025 03:07:34] "POST /index HTTP/1.1" 200 -
+2025-04-30 03:12:42,975 - INFO - User 'admin' submitted URL: https://www.bbc.com/news/live/cpvrrre4zlkt
+2025-04-30 03:12:45,210 - INFO - User 'admin' submitted URL: https://www.bbc.com/news/live/cpvrrre4zlkt
+2025-04-30 03:12:45,675 - INFO - User 'admin' submitted URL: https://www.bbc.com/news/live/cpvrrre4zlkt
+2025-04-30 03:17:11,119 - INFO - Summary generated for user 'admin' – Title: Live updates: Trump marks 100 days in office
+2025-04-30 03:17:11,935 - INFO - 127.0.0.1 - - [30/Apr/2025 03:17:11] "POST /index HTTP/1.1" 200 -
+2025-04-30 03:21:08,229 - INFO - Summary generated for user 'admin' – Title: Live updates: Trump marks 100 days in office
+2025-04-30 03:21:08,521 - INFO - 127.0.0.1 - - [30/Apr/2025 03:21:08] "POST /index HTTP/1.1" 200 -
+2025-04-30 03:21:13,326 - INFO - Summary generated for user 'admin' – Title: Live updates: Trump marks 100 days in office
+2025-04-30 03:21:13,626 - INFO - 127.0.0.1 - - [30/Apr/2025 03:21:13] "POST /index HTTP/1.1" 200 -

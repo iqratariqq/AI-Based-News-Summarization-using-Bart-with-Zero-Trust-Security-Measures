@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card shadow">
+          <div class="card-body">
+            <h3 class="card-title text-center mb-4">Login</h3>
+
+            {% if error %}
+              <div class="alert alert-danger text-center">{{ error }}</div>
+            {% endif %}
+
+            <form method="post">
+              <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control" required>
+              </div>
+
+              {% if captcha %}
+              <div class="form-group">
+                <label>{{ captcha_question }}</label>
+                <input type="text" name="captcha" class="form-control" required placeholder="Answer the CAPTCHA">
+              </div>
+              {% endif %}
+
+              <button type="submit" class="btn btn-success btn-block">Login</button>
+              <p class="text-center mt-3">
+                Don't have an account? <a href="{{ url_for('signup') }}">Sign Up</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
