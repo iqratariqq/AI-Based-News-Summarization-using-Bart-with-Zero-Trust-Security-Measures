@@ -32,20 +32,20 @@ Model files required:
 ## 📁 Project Structure
 /project-root
 │
-├── app.py # Main Flask application
-├── model/ # Contains BART model files
-│ ├── config.json
-│ ├── merges.txt
-│ ├── pytorch_model.bin
-│ ├── tokenizer.json
-│ └── vocab.json
-├── templates/ # HTML Templates
-│ ├── login.html
-│ ├── signup.html
-│ └── index.html
-├── users.json # User data storage
-└── README.md # Project documentation
-Set Up Virtual Environment
+├── app.py               # Main Flask application
+├── model/               # Contains BART model files
+│   ├── config.json
+│   ├── merges.txt
+│   ├── pytorch_model.bin
+│   ├── tokenizer.json
+│   └── vocab.json
+├── templates/           # HTML Templates
+│   ├── login.html
+│   ├── signup.html
+│   └── index.html
+├── users.json           # User data storage
+└── README.md            # Project documentation
+
 
 1.Set Up Virtual Environment
 python -m venv venv
